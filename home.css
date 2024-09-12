@@ -166,6 +166,7 @@ a.resumebutton:hover {
     flex-basis: 50%;
     border: none;
     display: flex;
+    flex-direction: column;
     justify-content: space-between; /* Optional: Adds space between the sections */
 }
 
