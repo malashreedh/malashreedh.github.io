@@ -228,7 +228,8 @@ a.resumebutton:hover {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px; /* Space between the items */
 }
 
 .skill {
@@ -242,10 +243,19 @@ a.resumebutton:hover {
 .skill img {
     width: 50px;
     height: 50px;
+    margin-bottom: 10px; /* Adds space between the icon and the label */
 }
 
 .skill p {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+
+i{
+    font-size: 30px;
 }
 
 form {
@@ -328,7 +338,7 @@ form input[type="submit"]:hover {
 footer {
     margin-top: auto;
     width: 100%;
-    position: fixed;
+    position: absolute;
     bottom:0;
 }
 
