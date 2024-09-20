@@ -165,6 +165,8 @@ a.resumebutton:hover {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    justify-content: center; /* Horizontally center align items */
+    align-items: center; /* Vertically center align items */
 }
 
 .project-card {
@@ -192,11 +194,12 @@ a.resumebutton:hover {
 }
 
 .section-container {
-    border: 1px solid #ccc;
     margin: 10px;
     padding: 20px;
-    flex-basis: calc(33% - 20px); /* For three cards per row, adjust as needed */
+    display: flex;
+    justify-content: space-between; /* Optional: Adds space between the items */
     box-sizing: border-box;
+    align-items: center;
 }
 
 .section-container section .connect-container{
