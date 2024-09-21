@@ -233,11 +233,15 @@ a.resumebutton:hover {
 }
 
 .skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100px;
     margin: 10px;
+    display: flex;
+    flex-direction: column; /* Icon and text stacked vertically */
+    align-items: center; /* Center icon and text */
+    border: 2px solid #ddd; /* Border around the box */
+    padding: 15px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners */
+    width: 100px; /* Width of the box */
+    transition: transform 0.3s; /* Smooth hover effect */
 }
 
 .skill img {
