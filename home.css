@@ -242,24 +242,18 @@ a.resumebutton:hover {
     border-radius: 8px; /* Rounded corners */
     width: 100px; /* Width of the box */
     transition: transform 0.3s; /* Smooth hover effect */
-}
-
-.skill img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px; /* Adds space between the icon and the label */
+    background-color: rgb(199, 196, 145);
 }
 
 .skill p {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     color: #333;
 }
 
 
 i{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 form {
