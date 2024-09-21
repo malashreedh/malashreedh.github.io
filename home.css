@@ -100,6 +100,7 @@ main{
 #my-image{
     border-radius: 50%;
     width: 35%;
+    height: 35%;
     float: right;
     padding-right: 20px;;
 }
@@ -193,6 +194,10 @@ a.resumebutton:hover {
 .project-card p {
     font-size: 1em;
     color: #333;
+}
+
+.project-card p:last-child {
+    margin-top: auto;
 }
 
 .section-container {
