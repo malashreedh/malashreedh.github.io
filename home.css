@@ -340,6 +340,11 @@ form input[type="submit"]:hover {
     color: #060303;
 }
 
+#location i, #email i{
+    font-size: 20px;
+    color: #070505;
+}
+
 footer {
     margin-top: auto;
     width: 100%;
