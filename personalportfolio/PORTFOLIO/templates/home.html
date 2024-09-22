@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+  
+    <head>
+        <!-- Import a Google Font called “Raleway” with two different font weights (400 and 600).
+            To make this font available for styling text on the web page.-->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    </head>
+
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#about-me" class="button"> About Me </a></li> 
+              <li> <a href="#techandtools" class="button">Tech and Tools </a></li>
+              <li> <a href="#projects" class="button">Projects</a></li> 
+              <li> <a href="#contact" class="button"> Contact </a></li>
+            </ul>
+          </nav>
+    </header>
+
+
+    <main>
+        <section id="intro">
+            <h1>Hi! I am Malashree Dhungel</h1>
+            <h3> I am a CS student actively seeking internship roles to develop my skill sets. </h3>
+            <h3> This is a web I built from scratch.</h3> 
+            <h3> P.S. I AM CURRENTLY WORKING ON THIS WEBSITE.</h3>
+            <a href="https://github.com/malashreedh" title = "Malashree's Github Profile"><i class="fab fa-github fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/malashree-dhungel-81b815261/" title="Malashree's LinkedIn Profile"><i class="fab fa-linkedin fa-3x"></i></a>
+        </section>
+    </main>
+    
+    <body>
+        <div class="about-me-container">
+            <section id="about-me"> <h1>About Me</h1>
+                <h2>A bit about me</h2>
+                <p>Currently, I am a junior at the University of South Dakota
+                majoring in Computer Science and minoring in Mathematics.
+                I aspire to become a software engineer and am actively seeking internship roles to grow.
+                I have a couple certifications from Codecademy that includes
+                Computer Science and SQL.
+                Currently, I am learning full-stack web development and looking for opportunities to put my knowledge
+                to work.
+                </p>
+                <a href="MalashreeResume.pdf" class="resumebutton" target="_blank">Resume</a>            
+            </section>
+        
+            <div id="my-image" style="border-radius: 50%; width: 2px; height: 2px; object-fit: cover; float: right; padding-right: 20px;">
+            <img src="{% static 'images/malashree.jpeg' %}" alt="Malashree Dhungel">
+            </div>
+        </div>
+
+        <section id="techandtools"> <h2>Technologies and Tools</h2>
+                <div class="skills">
+
+                    <div class="skill">
+                        <i class="devicon-github-original colored"> </i>  
+                        <p> GitHub</p>
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-git-plain"> </i>
+                        <p> Git</p>
+                    </div>
+
+                    <div class="skill">        
+                        <i class="devicon-dotnetcore-plain"></i>
+                        <p> .NET</p>
+                    </div>
+
+                    <div class="skill">      
+                        <i class="devicon-django-plain"></i>
+                        <p> Django</p>   
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-postgresql-plain"> </i>    
+                        <p> PostgreSQL</p>   
+                    </div>
+
+                    <div class="skill">        
+                    <i class="devicon-csharp-line"></i>
+                    <p> Csharp</p>
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-javascript-plain"> </i>
+                        <p> JavaScript</p>
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-css3-plain"></i>
+                        <p> CSS</p>
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-mysql-original"> </i>
+                        <p> MySQL</p>
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-python-plain"></i>
+                        <p> Python</p>   
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-html5-plain"></i>
+                        <p> HTML</p>        
+                    </div>
+
+                    <div class="skill">
+                        <i class="devicon-java-plain"></i>
+                        <p> Java</p>
+                    </div>
+
+                    <!-- Add more skills as needed -->
+
+                </div>
+            </section>
+        </section>
+
+        <section id="projects"> <h1>Projects</h1>
+            <div class="projects-container">
+
+                <div class= "project-card">
+                    <h2>Portfolio Web</h2>
+                    <p>The very website you're looking at.</p>
+
+                    <p>This is a web I created from scratch. I used Python's Django for my server-side 
+                        script. HTML, CSS for front-end...</p>
+
+                    <p> And I am currently working on this project.</p>
+
+                    <p>Tech Used: Django, Git, GitHub, HTML, CSS</p>
+                </div>
+
+                <div class= "project-card">
+                    <h2>Magic 8-Ball</h2>
+                    <p>A Python-based fortune-telling game that answers yes/no questions 
+                        with one of nine possible responses. The program outputs the user's name, 
+                        question, and a randomly selected answer, providing an engaging, 
+                        fun experience.</p>
+
+                    <p>Tech Used: Python, Git, GitHub</p>
+                </div>
+
+                <div class= "project-card">
+                    <h2>Hangman</h2>
+                    <p>Classic Hangman game in Google Colab using a python package</p>    
+                    <p>Tech Used: Python, Turtle package</p>
+                </div>
+
+                <div class= "project-card">
+                        <h2>Task Manager Application</h2>
+                        <p>This application allows users to create, manage, and
+                    organize tasks with features such as deadlines, priority levels, and notifications. The project demonstrates proficiency in object-
+                    oriented programming and user interface design.</p>
+
+                        <p>Tech Used: C#, .NET</p>
+                </div>
+                <div class= "project-card">
+                        <h2>Stock Market Simulator</h2>
+                        <p>Designed and implemented a stock market simulation tool in Java. 
+                            This project involved creating a realistic trading environment
+                            where users could simulate trading stocks, track portfolio performance, 
+                            and analyze market trends using real-time data.</p>
+
+                        <p>Tech Used: JAVA</p></div>
+            </div>
+        </section>
+
+        <section id="contact"> <h1>Contact</h1>
+            <div class="section-container">
+            <section> <div class="connect-container">
+                <h2>Connect with me</h2>
+            <p> If you want to know more about me and my skills or just would like to say hello,
+                send me a message. I would love to hear from you.
+            </p>
+
+            <!--replace "your-server-side-script" with the URL of your server-side script 
+                that will process the form data. 
+                The method="POST" attribute specifies that the form data should be sent as a POST request. -->
+            <form action="your-server-side-script" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            </section>
+
+            <section>
+                <h4> Contact Information</h4>
+                <a href="mailto:malashree.dhungel@coyotes.usd.edu" id="email">
+                <i class="fas fa-envelope"></i>
+                <span id="email"> malashree.dhungel@coyotes.usd.edu </span></a>
+                <div class="location" id="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>South Dakota, USA</span>
+                </div>
+                <h4>Social</h4>
+                <a href="https://github.com/malashreedh" ><i class="fab fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/malashree-dhungel-81b815261/"><i class="fab fa-linkedin fa-3x"></i></a>
+             </section>
+
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        <p>Made with <span style="color: rgb(255, 253, 208);">&#10084;</span> by Malashree</p>
+    </footer>
+
+</html>
