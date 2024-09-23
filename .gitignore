@@ -1,0 +1,18 @@
+myenv/
+
+# Python-related files
+__pycache__/
+*.pyc
+
+# Django-related files
+*.log
+*.sqlite3
+
+# macOS system files
+.DS_Store
+
+# Ignore node_modules if you're using JavaScript
+node_modules/
+
+# Ignore local environment settings
+.env
